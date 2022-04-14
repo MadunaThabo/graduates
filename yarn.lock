@@ -2471,12 +2471,19 @@
     v8-compile-cache "2.3.0"
     yargs-parser "20.0.0"
 
-"@nrwl/cli@13.9.4", "@nrwl/cli@^13.9.4":
+"@nrwl/cli@13.9.4":
   version "13.9.4"
   resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-13.9.4.tgz#bba8d1592191a2296223f42f61078f7ed197051e"
   integrity sha512-jseYnaaifBpBCnj1ERFnOA9vfXOd3AciGgYTy8OdygMqLf1suUAjUEVIh6hlmtvMQojNezTT4a3eaIHz9lQDKA==
   dependencies:
     nx "13.9.4"
+
+"@nrwl/cli@13.9.7":
+  version "13.9.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-13.9.7.tgz#a21a360fd14b8e5ab4f7b7723e2f6f483ab53962"
+  integrity sha512-OqeW+iwh7s34T1/cgefhPRF+RCA1J0LjLZ20eoiIjppZ3ObMw2IOFYBQMqeZ+jZ5xbDUGS9886a0rRLDHPA11Q==
+  dependencies:
+    nx "13.9.7"
 
 "@nrwl/cypress@13.8.3":
   version "13.8.3"
@@ -2757,6 +2764,13 @@
   integrity sha512-haJbuUku0JNf81H+VtGpAEQ6V2muyZ96sqxmUfnUe5ZoTvAX/pjSlHQaCWZuLzH9YzFP8KkjQb/lUepeEvSaFw==
   dependencies:
     nx "13.9.4"
+
+"@nrwl/tao@13.9.7":
+  version "13.9.7"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-13.9.7.tgz#2b0420432eac79bd5e9b3223f8cfe14c710c9acd"
+  integrity sha512-70Y5pmWaQH7b3qPGwqSHUGrCTf8gxsCe2q1cvR8RfOOgjFMTUtCHV2q1eKEzBvVel95U6h6Mj8Clzxj3AhZ6Cg==
+  dependencies:
+    nx "13.9.7"
 
 "@nrwl/workspace@13.8.3":
   version "13.8.3"
@@ -4110,15 +4124,6 @@ apollo-server-types@^3.5.2:
     apollo-reporting-protobuf "^3.3.1"
     apollo-server-caching "^3.3.0"
     apollo-server-env "^4.2.1"
-
-apollo-server@^3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/apollo-server/-/apollo-server-3.6.5.tgz#74b488f32c7039a2b96af0200dd41277f1cbec8e"
-  integrity sha512-IE3tdR7ai57hKw4APoTeVrR7K9cDjgznMlMmWil6VrRPlWMg5lMFumatDJL1ndCfV9zHbykAnaL+N9RycIMMWw==
-  dependencies:
-    apollo-server-core "^3.6.5"
-    apollo-server-express "^3.6.5"
-    express "^4.17.1"
 
 append-field@^1.0.0:
   version "1.0.0"
@@ -9860,6 +9865,30 @@ nx@13.9.4:
   dependencies:
     "@nrwl/cli" "13.9.4"
     "@nrwl/tao" "13.9.4"
+    "@swc-node/register" "^1.4.2"
+    "@swc/core" "^1.2.146"
+    chalk "4.1.0"
+    enquirer "~2.3.6"
+    fast-glob "3.2.7"
+    fs-extra "^9.1.0"
+    ignore "^5.0.4"
+    jsonc-parser "3.0.0"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    tmp "~0.2.1"
+    tsconfig-paths "^3.9.0"
+    tslib "^2.3.0"
+    v8-compile-cache "2.3.0"
+    yargs-parser "20.0.0"
+
+nx@13.9.7, nx@^13.9.7:
+  version "13.9.7"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-13.9.7.tgz#668c7e1ce779f7a288d86acedd3092e9a1b0ab3e"
+  integrity sha512-q9OWcL8vi0w9BJLrki6U/M84mc6EH5syBBmzpsG2kbwdMYGkoYaicbi/qcui+uVI9iVLysVElpc9LSMNiDEhLw==
+  dependencies:
+    "@nrwl/cli" "13.9.7"
+    "@nrwl/tao" "13.9.7"
     "@swc-node/register" "^1.4.2"
     "@swc/core" "^1.2.146"
     chalk "4.1.0"
